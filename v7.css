@@ -1,3 +1,16 @@
 body{
-    background: url();
+    background-image: url("img/fondv6.5.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'farscape', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'farscape';
+    src: url(font/farscape.ttf);
 }
