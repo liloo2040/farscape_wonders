@@ -1,14 +1,30 @@
 body{
     background-image: url("img/fondv6.5.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
+section{
+    width: 500px;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+    position: absolute;
+    height: 700px;
+    top: 50%;
+}
 h1 {
     font-family: 'farscape', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
     font-size: 80px;
     text-align: center;
+    padding-top: 10px;
+    color: white;
+    text-shadow: 2px 1px 1px orangered;
 }
+
+
 
 @font-face {
     font-family: 'farscape';
